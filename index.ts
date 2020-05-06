@@ -31,7 +31,17 @@ const config: config.Config = {
     endOfLine: "auto",
     overrides: [
         {
-            files: ["*.css", "*.json", "*.less", "*.sass", "*.yml"],
+            files: [
+                "*.css",
+                "*.htm",
+                "*.html",
+                "*.json",
+                "*.less",
+                "*.sass",
+                "*.yaml",
+                "*.yml",
+                "*.xml"
+            ],
             options: {
                 tabWidth: 2
             }
