@@ -1,3 +1,7 @@
 {
-  "extends": "@softwareventures/tslint-rules"
+  "extends": "@softwareventures/tslint-rules",
+  "rules": {
+    "no-namespace": false,
+    "no-implicit-dependencies": false
+  }
 }
