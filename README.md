@@ -27,8 +27,8 @@ Add to `package.json`:
 
 ## pre-commit hook
 
-Recommended: Configure husky and lint-staged to automatically reformat changes before they are
-committed.
+Recommended: Configure husky and lint-staged to automatically reformat changes
+before they are committed.
 
 ```bash
 npm install --save-dev husky lint-staged

@@ -45,6 +45,12 @@ const config: config.Config = {
             options: {
                 tabWidth: 2
             }
+        },
+        {
+            files: ["*.md"],
+            options: {
+                printWidth: 80
+            }
         }
     ]
 };
