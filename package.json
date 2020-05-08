@@ -20,7 +20,7 @@
     "tslib": "1.11.2"
   },
   "devDependencies": {
-    "@softwareventures/semantic-release-config": "1.0.0",
+    "@softwareventures/semantic-release-config": "1.0.1",
     "@softwareventures/tsconfig": "2.2.0",
     "@softwareventures/tslint-rules": "0.8.1",
     "@types/prettier": "2.0.0",
