@@ -21,7 +21,7 @@ Add to `package.json`:
 
 ```json
 {
-    "prettier": "@softwareventures"
+    "prettier": "@softwareventures/prettier-config"
 }
 ```
 
