@@ -27,11 +27,11 @@ Add to `package.json`:
 
 ## pre-commit hook
 
-Recommended: Configure husky and lint-staged to automatically reformat changes
-before they are committed.
+Recommended: Configure husky and precise-commits to automatically reformat
+changes before they are committed.
 
 ```bash
-npm install --save-dev husky lint-staged
+npm install --save-dev husky precise-commits
 ```
 
 or
@@ -46,11 +46,8 @@ Then add to `package.json`:
 {
     "husky": {
         "hooks": {
-            "pre-commit": "lint-staged"
+            "pre-commit": "precise-commits"
         }
-    },
-    "lint-staged": {
-        "*.{css,htm,html,js,json,jsx,less,md,sass,ts,tsx,yaml,yml,xml}": "prettier --write"
     }
 }
 ```
