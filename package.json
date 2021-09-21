@@ -12,6 +12,8 @@
   "repository": "github:softwareventures/prettier-config",
   "license": "ISC",
   "scripts": {
+    "fix": "tsc --noEmit && tslint --fix --project . && prettier --write .",
+    "lint": "tsc --noEmit && tslint --project . && prettier --check .",
     "prepare": "tsc",
     "semantic-release": "semantic-release",
     "test": "tslint --project . && ava"
