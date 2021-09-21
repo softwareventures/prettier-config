@@ -18,6 +18,9 @@
     "semantic-release": "semantic-release",
     "test": "tslint --project . && ava"
   },
+  "engines": {
+    "node": "^12 || ^14 || >=16"
+  },
   "dependencies": {
     "tslib": "1.14.1"
   },
