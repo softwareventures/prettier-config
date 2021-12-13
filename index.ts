@@ -21,7 +21,7 @@ const config: config.Config = {
     jsxSingleQuote: false,
     trailingComma: "none",
     bracketSpacing: false,
-    jsxBracketSameLine: false,
+    bracketSameLine: false,
     arrowParens: "avoid",
     requirePragma: false,
     insertPragma: false,
