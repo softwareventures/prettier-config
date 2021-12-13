@@ -32,7 +32,7 @@
     "ava": "3.15.0",
     "cz-conventional-changelog": "3.3.0",
     "husky": "4.3.8",
-    "precise-commits": "1.0.2",
+    "@softwareventures/precise-commits": "2.0.1",
     "prettier": "2.5.1",
     "semantic-release": "17.4.7",
     "ts-node": "9.1.1",
