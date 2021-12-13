@@ -14,7 +14,8 @@
   "scripts": {
     "fix": "tsc --noEmit && tslint --fix --project . && prettier --write .",
     "lint": "tsc --noEmit && tslint --project . && prettier --check .",
-    "prepare": "tsc",
+    "prepare": "husky install && tsc",
+    "pre-commit": "precise-commits",
     "semantic-release": "semantic-release",
     "test": "tslint --project . && ava"
   },
@@ -31,7 +32,7 @@
     "@types/prettier": "2.4.2",
     "ava": "3.15.0",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "4.3.8",
+    "husky": "7.0.4",
     "@softwareventures/precise-commits": "2.0.1",
     "prettier": "2.5.1",
     "semantic-release": "17.4.7",
@@ -55,10 +56,5 @@
   },
   "release": {
     "extends": "@softwareventures/semantic-release-config"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "precise-commits"
-    }
   }
 }
