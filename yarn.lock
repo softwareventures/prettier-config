@@ -455,10 +455,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@softwareventures/array@4.1.3":
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-4.1.3.tgz#fbcf5fb649c5ae8611e64c398bcb57203531a7d1"
-  integrity sha512-/ThQEaiQb8PuipPfH6DdwRp4Xq6nsOzkUDWRtOQ+EstA8KXgSa9bzQNSYKkIBGQ4qjvfQKHOqVrh75CdZ3iE8Q==
+"@softwareventures/array@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-4.2.0.tgz#af6b6fbcf77ac78c000ef2017de971273afd9e58"
+  integrity sha512-2msH25ZBNZTgEYiVx4VXnf8a0Cc5vl4e1LO9NnJrL0k3rzU1x5Y4NZA5ZvQyely9qNsaKG0pj218a8m17ipFJQ==
   dependencies:
     "@softwareventures/nullable" "^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0"
     "@softwareventures/ordered" "^0.2.0 || ^1.0.0"
@@ -478,12 +478,12 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.8.tgz#df936cff6d64765065de6b413c9d3887ea1215bb"
-  integrity sha512-B50h8v/iGycHZZz/EfIG0KviR6sO7Iu+LwwHfignedG2EpQsf+MH1ak3OUspVRY3Icy/1d2PYLmQzdI/PYsLjg==
+"@softwareventures/precise-commits@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.9.tgz#2e7edba7766dee9cacfeee8895e68bdf2ee53c09"
+  integrity sha512-wbvbjGw4+CINwix5Iz+ya80tEmZ8qkAkl2DrCZQGTro3a3ylSSCMvDQmET287YpefjMX2Iug5p+kysqHvMz4Ig==
   dependencies:
-    "@softwareventures/array" "4.1.3"
+    "@softwareventures/array" "4.2.0"
     execa "5.1.1"
     find-up "5.0.0"
     glob "7.2.0"
