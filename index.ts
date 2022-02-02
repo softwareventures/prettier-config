@@ -1,17 +1,6 @@
-import {Options} from "prettier";
+import {Config} from "prettier";
 
-namespace config {
-    export interface Config extends Options {
-        overrides?: Overrides[];
-    }
-
-    export interface Overrides {
-        files: string | string[];
-        options: Options;
-    }
-}
-
-const config: config.Config = {
+const config: Config = {
     printWidth: 100,
     tabWidth: 4,
     useTabs: false,
