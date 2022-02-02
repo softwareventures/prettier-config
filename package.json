@@ -12,10 +12,10 @@
   "repository": "github:softwareventures/prettier-config",
   "license": "ISC",
   "scripts": {
+    "pre-commit": "precise-commits",
     "fix": "tsc --noEmit && tslint --fix --project . && prettier --write .",
     "lint": "tsc --noEmit && tslint --project . && prettier --check .",
     "prepare": "husky install && tsc",
-    "pre-commit": "precise-commits",
     "semantic-release": "semantic-release",
     "test": "tslint --project . && ava"
   },
